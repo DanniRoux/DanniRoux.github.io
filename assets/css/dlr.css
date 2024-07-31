@@ -11516,6 +11516,13 @@ pre .code {
   color: #fff;
 }
 
+@supports (-webkit-overflow-scrolling: touch) {
+  header {
+    background-attachment: scroll;
+  }
+}
+
+
 .header .container {
   position: relative;
   height: 100%;
