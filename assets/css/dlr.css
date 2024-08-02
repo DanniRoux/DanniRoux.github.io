@@ -1,17 +1,5 @@
 @charset "UTF-8";
-/*!
-=========================================================
-* JohnDoe Landing page
-=========================================================
 
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap");
 :root {
   --blue: #79A9F5;
@@ -11384,6 +11372,15 @@ pre .code {
   max-width: 180px;
 }
 
+.bottom-social-icons {
+  justify-content: center;
+  margin: 0 auto; /* Centers the container */
+}
+
+.social-icons .social-item {
+  margin: 0 10px; /* Adjust spacing between icons as needed */
+}
+
 .social-icons .social-link {
   font-size: 18px;
 }
@@ -11391,6 +11388,7 @@ pre .code {
 .social-icons .social-link:hover {
   color: #F85C70;
 }
+
 
 .navbar {
   box-shadow: 0 1px 10px rgba(54, 54, 54, 0.18);
@@ -11644,6 +11642,7 @@ pre .code {
       -ms-flex-align: center;
           align-items: center;
   padding: 40px 0;
+  text-align: center; /* Center align all text */
 }
 
 @media (max-width: 991.98px) {
@@ -11672,6 +11671,7 @@ pre .code {
   padding: 35px;
   background: #fff;
   min-height: 500px;
+  text-align: center; /* Center align text inside cards */
 }
 
 .contact .contact-info-card {
@@ -11689,4 +11689,90 @@ pre .code {
   background: #F85C70;
   display: block;
   margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+
+.thin-section {
+  height: 50px; /* Adjust height as needed */
+}
+
+#service .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 300px; /* Adjust based on your needs */
+  margin-bottom: 30px; /* Adds space between cards */
+}
+
+#service .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#service .card-header {
+  margin-bottom: 15px; /* Space between header and body */
+}
+
+#service .subtitle {
+  line-height: 1.5; /* Adjust line height for readability */
+}
+
+.card-title {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1rem; /* adjust as needed for spacing */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.card-body p.subtitle {
+  flex-grow: 1;
+}
+
+/* Centering the icons */
+.hm-foot-icon {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hm-foot-icon ul {
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+}
+
+.hm-foot-icon ul li {
+  margin: 0 10px;
+}
+
+.hm-foot-icon ul li>a {
+  color: #636a82;
+  font-size: 24px;
+  transition: .3s;
+}
+
+.hm-foot-icon ul li>a:hover {
+  color: #b636ff;
+}
+
+.hm-footer-copyright p {
+  color: #888ea5;
+  text-transform: capitalize;
+  padding: 38px 0;
+  text-align: center;
+}
+
+
+
+
+
+
